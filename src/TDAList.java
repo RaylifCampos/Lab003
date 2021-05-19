@@ -1,5 +1,5 @@
 
-public interface TDAList {
+public interface TDAList<T> {
 	boolean isEmptyList();
 	int length();
 	void destroyList();
@@ -7,5 +7,6 @@ public interface TDAList {
 	void insertLast(T x);
 	void insertFirst(T x);
 	void remove(T x);
+	String toString();
 
 }

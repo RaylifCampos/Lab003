@@ -16,4 +16,17 @@ public class ListLinked <T> implements TDAList<T>{
 		while(this.first != null)
 			this.first=this.first.getNext();
 	}
+	public int search(T x) {
+		
+	}
+	public void insertLast(T x) {
+		
+	}
+	public void insertFirst(T x) {
+		
+	}
+	public void remove(T x) {
+		
+	}
+	
 }
