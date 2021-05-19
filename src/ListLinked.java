@@ -1,7 +1,7 @@
 
 public class ListLinked <T> implements TDAList<T>{
-	private Node<T> first;
-	private int count;
+	public Node<T> first;
+	public int count;
 	
 	public ListLinked() {
 		this.first= null;
